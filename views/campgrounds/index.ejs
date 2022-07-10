@@ -12,7 +12,7 @@
     <% for (let campground of campgrounds) { %>
 
 
-        <div id="infinite" class="card my-3 mx-3" style="width: 18rem; display: inline-block">
+        <div class="card my-3 mx-3" style="width: 18rem; display: inline-block">
             <% if (campground.images.length) { %>
                 <img src="<%=campground.images[0].url%>" class="card-img-top" alt="...">
                 <% } %>
@@ -40,4 +40,3 @@
                 const campgrounds = { features: <%- JSON.stringify(campgrounds) %>}
             </script>
             <script src="/javascripts/clusterMap.js"></script>
-            <script src="/javascripts/infiniteScroll.js"></script>
