@@ -12,7 +12,7 @@
     <% for (let campground of campgrounds) { %>
 
 
-        <div class="card my-3 mx-3" style="width: 18rem; display: inline-block">
+        <div id="infinite" class="card my-3 mx-3" style="width: 18rem; display: inline-block">
             <% if (campground.images.length) { %>
                 <img src="<%=campground.images[0].url%>" class="card-img-top" alt="...">
                 <% } %>
@@ -37,6 +37,6 @@
 
             <script>
                 const mapToken = '<%-process.env.MAPBOX_TOKEN%>';
-                const campgrounds = {features: <%- JSON.stringify(campgrounds) %>}
+                const campgrounds = { features: <%- JSON.stringify(campgrounds) %>}
             </script>
             <script src="/javascripts/clusterMap.js"></script>

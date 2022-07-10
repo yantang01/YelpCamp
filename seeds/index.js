@@ -10,7 +10,7 @@ const mongoose = require('mongoose');
 main().catch(err => console.log(err));
 async function main() {
     console.log('Database Connected')
-    await mongoose.connect('mongodb://localhost:27017/yelp-camp');
+    await mongoose.connect('mongodb+srv://yantang0727:Jianxiaishen1830@cluster0.c5fwq.mongodb.net/?retryWrites=true&w=majority');
 }
 
 function sample(array) {
