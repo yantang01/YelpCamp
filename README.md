@@ -1,10 +1,11 @@
 # YelpCamp - Full Stack Web App
+- A web application that allows users to browse a variety of campground information, write reviews, and rate the campgrounds.
+- This app is the capstone project of [Web Dev BootCamp](https://www.udemy.com/course/the-web-developer-bootcamp) course.
+
 ![Main Page](https://user-images.githubusercontent.com/92637601/195693981-b20fefb6-e9b9-473e-aec8-10e52ea5bf95.png)
 
-A web application that allows users to browse a variety of campground information, write reviews, and rate the campgrounds.
-
 ## Demo
-https://yelpcampapp01.herokuapp.com/
+https://yelpcampapp01.herokuapp.com
 
 ## Steps to run in dev environment:
 
